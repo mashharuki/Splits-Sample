@@ -1,0 +1,21 @@
+{
+  "name": "sdk-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx ./src/index.ts",
+    "createSplit": "tsx ./src/createSplit.ts",
+    "distribute": "tsx ./src/distributeToken.ts"
+  },
+  "dependencies": {
+    "@0xsplits/splits-sdk": "^5.0.0",
+    "viem": "^2.23.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
